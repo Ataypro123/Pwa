@@ -1,0 +1,48 @@
+name: hermes_pro
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: 
+  firebase_auth: 
+  email_validator: ^2.0.3
+  google_sign_in: ^6.2.0
+  excel: ^2.0.0
+  file_picker: ^5.0.0
+  cupertino_icons: ^1.0.2
+  qr_flutter: ^4.0.0
+  path_provider: ^2.0.1
+  barcode_scan2: ^4.3.3
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+  provider: ^6.1.2
+  flutter_slider_drawer: ^2.0.0
+  intl: ^0.20.0
+  flutter_datetime_picker: ^1.5.1
+  url_launcher: ^6.3.1
+  barcode_widget: ^2.0.4
+  uuid: ^4.5.1
+  encrypt: ^5.0.0
+  webview_flutter: ^4.0.7
+  flutter_inappwebview: ^6.1.5
+  webview_flutter_wkwebview: ^3.16.3
+  pdf: ^3.11.1
+  printing: ^5.13.4
+  fluttertoast: ^8.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  hive_generator: ^1.1.0
+  build_runner: ^2.1.0
+  analyzer: ^4.7.0
+
+flutter:
+  uses-material-design: true
